@@ -27,8 +27,8 @@ In this project I used various nlp techniques like--
                         report. Saving model object using joblib.dump.
 3. XGBoost Model- Did hyperparameter tuning using randomizedsearchcv and evaluated precision & F1 Score. Plotted classificaton
                   report. Saving model object using joblib.dump.
+- ## **SHAP**
+  Plotted 10 features using shap for feature explainability. Explained it's Features, Impact & Business Implications.
 - ## **Model Performance**
   XGBoost & Random Forest both achieved highest accuracy of 72.1% but XGBoost had a slightly better F1 SCore (73.15 vs 72.1%) than random    forest indicating slightly better precision-recall balance. Logistic REgression performed significantly worse, with 59.2% accuracy and     60.2% F1 Score, suggesting it couldn't capture complex patterns as well as the tree based models. Overall, XGBoost is the performed
   model due to it's strnger F1 score and accuracy.
-- ## **SHAP**
-  Plotted 10 features using shap for feature explainability. Explained it's Features, Impact & Business Implications. 
