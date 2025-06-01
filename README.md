@@ -18,8 +18,7 @@ In this project I used various nlp techniques like--
 - ## **Feature Engineering**
 1. Selecting top 500 features by average value for Tf-IDF & N-Gram.
 2. Evaluating feature importances using Random Forest Classifier and selecting top 100 features by average value.
-
--## **Modelling**
+- ## **Modelling**
 Splitted the data into into X & y and train & test split.
 1. Random Forest Classifier- Did hyperparameter tuning using randomizedsearchcv and evaluated precision & F1 Score. Plotted classificaton
                              report. Saving model object using joblib.dump.
@@ -27,5 +26,5 @@ Splitted the data into into X & y and train & test split.
                         report. Saving model object using joblib.dump.
 3. XGBoost Model- Did hyperparameter tuning using randomizedsearchcv and evaluated precision & F1 Score. Plotted classificaton
                   report. Saving model object using joblib.dump.
--## **SHAP**
+- ## **SHAP**
 Plotted 10 features using shap for feature explainability. Explained it's Features, Impact & Business Implications. 
