@@ -1,4 +1,4 @@
-# Twitter-Sentiment-analysis
+# Twitter-Sentiment-Analysis
 - ## **Dataset**
 The dataset was collected from kaggle Sentiment140 dataset with 1.6 million rows.
 This is a real-world data of 1.6 million rows having tweets from across the globe. The dataset contains wide range of topics from fashion, tech, sports, politics to ongoing trends.
